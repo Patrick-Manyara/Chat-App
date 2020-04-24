@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "954790301028",
+    "firebase_url": "https://chattry-85e34.firebaseio.com",
+    "project_id": "chattry-85e34",
+    "storage_bucket": "chattry-85e34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954790301028:android:c5df1bc8f6e561cf5a3e71",
+        "android_client_info": {
+          "package_name": "com.example.chattry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954790301028-mrbhpkkk2ocsucmb6mnrjvm7gvkugv3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrof2QD6fTFGt5SX58sZGxtkdfCY6oalg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954790301028-mrbhpkkk2ocsucmb6mnrjvm7gvkugv3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
