@@ -10,7 +10,7 @@
     app:contentPadding="3dp">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -21,6 +21,7 @@
             android:layout_height="70dp"></com.blogspot.atifsoftwares.circularimageview.CircularImageView>
 
         <LinearLayout
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -41,6 +42,13 @@
                 android:text="Person Email"></TextView>
 
         </LinearLayout>
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:id="@+id/blockIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_check_green"></ImageView>
 
     </LinearLayout>
 

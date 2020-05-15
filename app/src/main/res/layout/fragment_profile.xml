@@ -29,6 +29,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="120dp"
+                android:id="@+id/linearLayout"
                 android:layout_marginTop="100dp"
                 android:orientation="horizontal">
 
@@ -79,6 +80,16 @@
                 </LinearLayout>
 
             </LinearLayout>
+
+            <!--recycler view for user specific posts-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_posts"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/linearLayout"
+                android:layout_height="match_parent"> </androidx.recyclerview.widget.RecyclerView>
+
+
 
         </RelativeLayout>
 

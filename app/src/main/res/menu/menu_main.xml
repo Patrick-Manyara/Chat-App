@@ -2,10 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/action_logout"
-        android:title="LogOut"></item>
+        android:title="Log Out"></item>
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"></item>
+
     <item android:id="@+id/action_search"
         android:title="Search"
         android:icon="@drawable/ic_search_menu"
         app:showAsAction="always"
         app:actionViewClass="android.widget.SearchView"></item>
+
+    <item android:id="@+id/action_add_post"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_white_add"
+        android:title="Add Post"></item>
+
 </menu>

@@ -10,9 +10,10 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/ic_add_chatmain"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/chattrylogo"
+        android:layout_marginBottom="10dp"
         ></ImageView>
 
    <Button
